@@ -7,7 +7,7 @@ class Book
     @title
   end
   
-  def auth=(author)
+  def author=(author)
     @author = author
   end
   
@@ -23,8 +23,12 @@ class Book
     @page_count
   end
   
+  def genre=(genre) 
+    @genre = genre
+  end
+  
   def genre 
-    @genre 
+    @genre
   end
   
   def turn_page
